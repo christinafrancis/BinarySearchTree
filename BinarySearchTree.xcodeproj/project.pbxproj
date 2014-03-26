@@ -19,6 +19,8 @@
 		CFD550F2185E863800CDE047 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD550F0185E863800CDE047 /* MainStoryboard_iPhone.storyboard */; };
 		CFD550F5185E863800CDE047 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD550F3185E863800CDE047 /* MainStoryboard_iPad.storyboard */; };
 		CFD550F8185E863800CDE047 /* CFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD550F7185E863800CDE047 /* CFViewController.m */; };
+		CFD55100185E86FB00CDE047 /* MyNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD550FF185E86FB00CDE047 /* MyNode.m */; };
+		CFD55103185E871000CDE047 /* BSTree.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD55102185E871000CDE047 /* BSTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,10 @@
 		CFD550F4185E863800CDE047 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		CFD550F6185E863800CDE047 /* CFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFViewController.h; sourceTree = "<group>"; };
 		CFD550F7185E863800CDE047 /* CFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFViewController.m; sourceTree = "<group>"; };
+		CFD550FE185E86FB00CDE047 /* MyNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNode.h; sourceTree = "<group>"; };
+		CFD550FF185E86FB00CDE047 /* MyNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNode.m; sourceTree = "<group>"; };
+		CFD55101185E871000CDE047 /* BSTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTree.h; sourceTree = "<group>"; };
+		CFD55102185E871000CDE047 /* BSTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				CFD550E8185E863800CDE047 /* CFAppDelegate.m */,
 				CFD550F0185E863800CDE047 /* MainStoryboard_iPhone.storyboard */,
 				CFD550F3185E863800CDE047 /* MainStoryboard_iPad.storyboard */,
+				CFD550FE185E86FB00CDE047 /* MyNode.h */,
+				CFD550FF185E86FB00CDE047 /* MyNode.m */,
+				CFD55101185E871000CDE047 /* BSTree.h */,
+				CFD55102185E871000CDE047 /* BSTree.m */,
 				CFD550F6185E863800CDE047 /* CFViewController.h */,
 				CFD550F7185E863800CDE047 /* CFViewController.m */,
 				CFD550DF185E863800CDE047 /* Supporting Files */,
@@ -181,6 +191,8 @@
 				CFD550E5185E863800CDE047 /* main.m in Sources */,
 				CFD550E9185E863800CDE047 /* CFAppDelegate.m in Sources */,
 				CFD550F8185E863800CDE047 /* CFViewController.m in Sources */,
+				CFD55100185E86FB00CDE047 /* MyNode.m in Sources */,
+				CFD55103185E871000CDE047 /* BSTree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
